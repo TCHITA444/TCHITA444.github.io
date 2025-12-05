@@ -270,6 +270,7 @@ li {
     .sub-header {
         background-image: url(1080x1920_MST_F1_2025_9066_01.avif);
         background-position: center;
+        background-size: contain;
         background-repeat: no-repeat;
         display: flex;
         justify-content: center;
