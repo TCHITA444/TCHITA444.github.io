@@ -11,6 +11,7 @@ body {
     margin: 0;
     font-family: Oswald;
     background-color: hsla(216, 23%, 8%, 1);
+    overflow-x: hidden;
 }
 
 nav {
@@ -212,8 +213,12 @@ li {
     transform: scale(1.1);
 }
 
-.icons {
+footer {
     background-color: black;
+    padding: 15px;
+}
+
+.icons {
     padding-top: 15px;
     width: 100%;
     text-align: center;
@@ -233,7 +238,6 @@ li {
 }
 
 .info {
-    background-color: black;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -261,9 +265,338 @@ li {
 }
 
 .bottom {
-    background-color: black;
     text-align: center;
     padding-right: 5px;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    background-image: url(company.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 200px;
+    text-decoration: none;
+}
+
+.main h1 {
+    font-size: 80px;
+    color: white;
+}
+
+.txt {
+    color: white;
+    margin-top: 30px;
+    height: 300px;
+    width: 95%;
+    padding-top: 70px;
+    text-align: center;
+    font-size: xx-large;
+    background-color: grey;
+    margin-left: 45px;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.txt:hover {
+    background-color: white;
+    transform: scale(0.9);
+    color: gray;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 50px;
+}
+
+.card1 {
+    height: 400px;
+    width: 600px;
+    background-image: url(profile.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 60px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.card1 h1 {
+    font-size: 60px;
+    color: white;
+}
+
+.card1:hover {
+    transform: scale(1.1);
+}
+
+.card2 {
+    background-image: url(strategy.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 600px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 60px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.card2 h1 {
+    color: white;
+    font-size: 60px;
+}
+
+.card2:hover {
+    transform: scale(1.1);
+}
+
+.card3 {
+    background-image: url(compli.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 600px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 60px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.card3 h1 {
+    color: white;
+    font-size: 60px;
+}
+
+.card3:hover {
+    transform: scale(1.1);
+}
+
+.txts {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 300px;
+}
+
+.txt1 {
+    height: 200px;
+    width: 500px;
+    color: white;
+    background-color: grey;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+.txt1:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: grey;
+}
+
+.txt2 {
+    height: 200px;
+    width: 500px;
+    color: white;
+    background-color: grey;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.txt2:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: grey;
+}
+
+.txt3 {
+    height: 200px;
+    width: 500px;
+    color: white;
+    background-color: grey;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+.txt3:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: grey;
+}
+
+.last-txt {
+    height: 200px;
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+hr {
+    border-top: solid whitesmoke 5px;
+    border-radius: 10px;
+}
+
+.tech-container {
+    height: 100vh;
+    width: 100%;
+}
+
+.tech-container h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    color: white;
+    font-size: 50px;
+}
+
+.img-tech {
+    width: 100%;
+    height: 90vh;
+}
+
+.img-tech img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.tech-txt {
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    width: 70%;
+    font-weight: 100;
+}
+
+.main-txt {
+    width: 100%;
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.art-cont {
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    transition: 0.5s;
+}
+
+.art-cont:hover {
+    transform: scale(1.1);
+}
+
+.art-img {
+    width: 900px;
+    height: 450px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.art-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.art-text {
+    width: 800px;
+    height: 196px;
+    color: white;
+}
+
+.art-text p {
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.text1 {
+    color: bisque;
+    padding: 60px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.container0 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.audi1 {
+    width: 900px;
+    height: 600px;
+    overflow: hidden;
+    border-radius: 20px;
+    color: white;
+}
+
+.audi1 img {
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+
+.audi1 img:hover {
+    transform: scale(0.9);
+}
+
+.audi2 {
+    height: 600px;
+    width: 900px;
+    object-fit: cover;
+    color: white;
+}
+
+.audi2 img {
+    height: 80%;
+    width: 100%;
+    border-radius: 20px;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+
+.audi2 img:hover {
+    transform: scale(0.9);
 }
 
 @media (max-width: 768px) {
@@ -333,4 +666,116 @@ li {
         height: 250px;
         width: 600px;
     }
+
+    .txt {
+        height: auto;
+        width: 95%;
+        margin-left: 15px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card1 {
+        width: 85%;
+    }
+
+    .card2 {
+        width: 85%;
+    }
+
+    .card3 {
+        width: 85%;
+        text-align: center;
+    }
+
+    .txts {
+        width: 90%;
+        margin-left: 25px;
+    }
+
+    .txt1 {
+        height: 230px;
+    }
+    
+    .txt2 {
+        height: 230px;
+    }
+    
+    .txt3 {
+        height: 230px;
+    }
+
+    .tech-container {
+        height: auto;
+    }
+    
+    .img-tech {
+        height: 600px;
+        width: 500px;
+    }
+
+    .img-tech img {
+        object-fit: cover;
+        object-position: -200px;
+    }
+
+    .main-txt {
+        padding-top: 10px;
+    }
+
+    .art-img {
+        height: 350px;
+        padding-left: 30px;
+    }
+
+    .art-text {
+        margin-bottom: 140px;
+        padding-right: 20px;
+    }
+
+    .art-cont {
+        gap: 10px;
+    }
+
+    .text1 {
+        padding-left: 40px;
+    }
+
+    .container0 {
+        flex-direction: column;
+    }
+
+    .audi1 {
+        width: 470px;
+        height: auto;
+        padding-left: 30px;
+    }
+
+    .audi1 img {
+        border-radius: 20px;
+        height: 300px;
+    }
+
+    .audi2 {
+        width: 470px;
+        height: auto;
+        padding-left: 30px;
+    }
+
+    .audi2 img {
+        border-radius: 20px;
+        height: 250px;
+    }
+
+    .tech-txt {
+        width: 490px;
+        padding-bottom: 40px;
+        padding-top: 20px;
+    }
+
 }

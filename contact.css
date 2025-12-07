@@ -27,12 +27,11 @@ body {
 }
 
 .page {
-    height: 100%;
     width: 100%;
+    height: 88vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
 }
 
 .wrapper {
@@ -102,6 +101,63 @@ body {
     transform: scale(1.1);
     color: white;
     background-color: grey;
+}
+
+.icons {
+    padding-top: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.icons a {
+    color: white;
+    background-color: black;
+    border-radius: 10%;
+    font-size: xx-large;
+    transition: 0.5s;
+}
+
+.icons a:hover {
+    color: black;
+    background-color: white;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.info ul {
+    display: flex;
+    padding-right: 35px;
+    margin: 10px;
+}
+
+.info ul li {
+    margin: 5px;
+    list-style: none;
+}
+
+.info ul li a {
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+}
+
+.info ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+.bottom {
+    text-align: center;
+    padding-right: 5px;
+}
+
+footer {
+    background-color: black;
+    padding: 15px;
 }
 
 @media (max-width: 768px) {
