@@ -600,6 +600,7 @@ hr {
 }
 
 @media (max-width: 768px) {
+    
     .sub-header {
         background-image: url(1080x1920_MST_F1_2025_9066_01.avif);
         background-position: center;
@@ -608,6 +609,7 @@ hr {
         display: flex;
         justify-content: center;
         align-items: end;
+        padding-bottom: 90px;
     }
 
     .sub-header ul li {
@@ -670,10 +672,10 @@ hr {
     .txt {
         height: auto;
         width: 95%;
-        margin-left: 15px;
+        margin-left: 10px;
         padding-bottom: 10px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 
     .cards {
@@ -694,52 +696,63 @@ hr {
     }
 
     .txts {
-        width: 90%;
-        margin-left: 25px;
+        width: 100%;
+        gap: 2px;
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
     }
 
     .txt1 {
-        height: 230px;
+        height: 240px;
+        padding-top: 50px;
     }
     
     .txt2 {
-        height: 230px;
+        height: 240px;
+        padding-top: 50px;
     }
     
     .txt3 {
-        height: 230px;
+        height: 240px;
+        padding-top: 20px;
     }
 
     .tech-container {
         height: auto;
+        max-width: 500px;
     }
-    
+
     .img-tech {
-        height: 600px;
-        width: 500px;
+        height: 550px;
+        overflow: hidden;
     }
 
     .img-tech img {
         object-fit: cover;
-        object-position: -200px;
+        width: 500px;
+        object-position: center;
     }
 
     .main-txt {
         padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .art-img {
-        height: 350px;
+        height: 450px;
         padding-left: 30px;
     }
 
     .art-text {
-        margin-bottom: 140px;
+        margin-bottom: 260px;
         padding-right: 20px;
     }
 
     .art-cont {
         gap: 10px;
+        max-width: 500px;
     }
 
     .text1 {
@@ -748,28 +761,32 @@ hr {
 
     .container0 {
         flex-direction: column;
+        max-width: 500px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     .audi1 {
-        width: 470px;
+        width: 100%;
         height: auto;
-        padding-left: 30px;
+        text-align: center;
     }
 
     .audi1 img {
         border-radius: 20px;
-        height: 300px;
+        height: 200px;
+        width: 100%;
     }
 
     .audi2 {
-        width: 470px;
+        width: 100%;
         height: auto;
-        padding-left: 30px;
+        text-align: center;
     }
 
     .audi2 img {
         border-radius: 20px;
-        height: 250px;
+        height: 200px;
     }
 
     .tech-txt {
@@ -778,4 +795,7 @@ hr {
         padding-top: 20px;
     }
 
+    .last-txt {
+        height: 270px;
+    }
 }
